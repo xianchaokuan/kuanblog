@@ -1,0 +1,6 @@
+F:\DreamDemo\project20170612\project20170612\bin\project20170612.dll.config
+F:\DreamDemo\project20170612\project20170612\bin\project20170612.dll
+F:\DreamDemo\project20170612\project20170612\bin\project20170612.pdb
+F:\DreamDemo\project20170612\project20170612\obj\Debug\project20170612.csprojResolveAssemblyReference.cache
+F:\DreamDemo\project20170612\project20170612\obj\Debug\project20170612.dll
+F:\DreamDemo\project20170612\project20170612\obj\Debug\project20170612.pdb

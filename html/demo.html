@@ -1,0 +1,370 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="../image/head.jpg" type="image/x-icon" rel="shortcut icon" />
+    <title>project20170612</title>
+    <link href="../style/demo.css" rel="stylesheet" />
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/demo.js"></script>
+</head>
+<body>
+    <!--<div id="box1">
+        <h3>自我介绍</h3>
+        <p class="test">我叫冼朝宽，我是个菜鸟码农！</p>
+        <p class="test test2">我叫冼朝伟，我是个菜鸟码农！</p>
+        <p class="test">我叫冼金柳，我是个菜鸟码农！</p>
+        <button type="button" id="btn1">点击途径A</button>
+        <button type="button" id="btn2">点击途径B</button>
+        <button type="button" id="btn3">点击途径C</button>
+    </div>-->
+
+    <header>
+        <div id="header-icon">
+            <div id="left-header">
+                <div id="sitelogo"><img src="../image/2.png" alt="虎牙LOGO" /></div>
+                <div class="leftitem"><a href="#">首页</a></div>
+                <div class="leftitem"><a href="#">直播</a></div>
+                <div class="leftitem">
+                    <a href="#">分类</a>
+                    <span></span>
+                    <table>
+                        <tr>
+                            <th>热门分类</th>
+                        </tr>
+                        <tr>
+                            <td>英雄联盟</td>
+                            <td>王者荣耀</td>
+                            <td>星秀</td>
+                        </tr>
+                        <tr>
+                            <td>英雄联盟</td>
+                            <td>王者荣耀</td>
+                            <td>星秀</td>
+                        </tr>
+                        <tr>
+                            <td>英雄联盟</td>
+                            <td>王者荣耀</td>
+                            <td>星秀</td>
+                        </tr>
+                        <tr>
+                            <th>玩家推荐</th>
+                        </tr>
+                        <tr>
+                            <td>迷你世界</td>
+                            <td>美食</td>
+                            <td>御宅</td>
+                        </tr>
+                        <tr>
+                            <td>迷你世界</td>
+                            <td>美食</td>
+                            <td>御宅</td>
+                        </tr>
+                        <tr>
+                            <td>迷你世界</td>
+                            <td>美食</td>
+                            <td>御宅</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="search-box"><input type="text" placeholder="冼朝宽" /></div>
+            </div>
+
+            <div id="right-header">
+                <ul id="righthead-list">
+                    <li class="rightitem">
+                        <span></span>
+                        <a href="#">下载</a>
+                        <ul id="Down-list">
+                            <li><span></span><a href="#">移动APP</a></li>
+                            <li><span></span><a href="#">主播工具</a></li>
+                        </ul>
+                    </li>
+                    <li class="rightitem">
+                        <span></span>
+                        <a href="#">历史</a>
+                        <!--<ul id="History-list">
+                            <li><a href="#">中单莫甘娜</a></li>
+                            <li><a href="#">虎牙东方梦魇</a></li>
+                            <li><a href="#">正恒宝贝儿</a></li>
+                        </ul>-->
+                    </li>
+                    <li class="rightitem" id="login"><span></span><a href="#">登录</a></li>
+                    <li class="rightitem" id="regist"><span></span><a href="#">注册</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+
+    <div id="Big-Box">
+        <nav>
+            <ul id="Display-Box">
+                <li>
+                    <a href="#">订阅</a>
+                </li>
+                <li>
+                    <a href="#">直播</a>
+                </li>
+                <li>
+                    <a href="#">分类</a>
+                </li>
+                <li>
+                    <a href="#">网游</a>
+                </li>
+                <li>
+                    <a href="#">单机</a>
+                </li>
+                <li>
+                    <a href="#">娱乐</a>
+                </li>
+                <li>
+                    <a href="#">手游</a>
+                </li>
+                <li>
+                    <a href="#">开直播</a>
+                </li>
+                <li>
+                    <a href="#">举报</a>
+                </li>
+                <li><button type="button" id="btn1">展开</button></li>
+            </ul>
+
+            <ul id="Hidden-Box">
+                <li><a href="#">我的订阅</a></li>
+                <li><a href="#">全部直播</a></li>
+                <li><a href="#">全部分类</a></li>
+                <li><a href="#">网游竞技</a></li>
+                <li><a href="#">单机热游</a></li>
+                <li><a href="#">娱乐综艺</a></li>
+                <li><a href="#">我的最爱</a></li>
+                <li><a href="#">星宿直播</a></li>
+                <li><a href="#">娱乐主播</a></li>
+                <li><a href="#">野外生存</a></li>
+                <li><a href="#">网络主播</a></li>
+                <li><a href="#">一起来看</a></li>
+                <li><a href="#">我的世界</a></li>
+                <li><button type="button" id="btn2">收回</button></li>
+            </ul>
+        </nav>
+
+        <article>
+            <div id="Img-Box">
+                <div id="imglist1">
+                    <div class="img-item"><img src="../image/i17.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item"><img src="../image/i12.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item"><img src="../image/i13.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item"><img src="../image/i14.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item"><img src="../image/i15.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item"><img src="../image/i16.jpg" alt="推荐主播封面" /></div>
+                </div>
+
+                <div id="imglist2">
+                    <div class="img-item2"><img src="../image/i13.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item2"><img src="../image/i14.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item2"><img src="../image/i15.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item2"><img src="../image/i16.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item2"><img src="../image/i17.jpg" alt="推荐主播封面" /></div>
+                    <div class="img-item2"><img src="../image/i12.jpg" alt="推荐主播封面" /></div>
+                </div>
+
+                <div id="img-list">
+                    <div class="Img-Item"><img src="../image/i12.jpg" alt="推荐主播封面" /></div>
+                    <div class="Img-Item"><img src="../image/i13.jpg" alt="推荐主播封面" /></div>
+                    <div class="Img-Item"><img src="../image/i14.jpg" alt="推荐主播封面" /></div>
+                    <div class="Img-Item"><img src="../image/i15.jpg" alt="推荐主播封面" /></div>
+                    <div class="Img-Item"><img src="../image/i16.jpg" alt="推荐主播封面" /></div>
+                    <div class="Img-Item"><img src="../image/i17.jpg" alt="推荐主播封面" /></div>
+                </div>
+                
+                <div class="btn bton1" ><em>《</em></div>
+                <div class="btn bton2" ><em>》</em></div>
+
+                <div id="tab">
+                    <div class="tab-item bg"></div>
+                    <div class="tab-item"></div>
+                    <div class="tab-item"></div>
+                    <div class="tab-item"></div>
+                    <div class="tab-item"></div>
+                    <div class="tab-item"></div>
+                </div>
+
+            </div>
+
+            <div id="article-nav">
+                <h3>英雄联盟</h3>
+                <ul id="artnav-list">
+                    <li><a href="#">全部</a></li>
+                    <li>
+                        <a href="#">英雄&nbsp;<span>▼</span></a>
+
+                        <table>
+                            <tr>
+                                <td>上单</td>
+                                <td>打野</td>
+                                <td>中单</td>
+                            </tr>
+                            <tr>
+                                <td>ADC</td>
+                                <td>辅助</td>
+                                <td>盲僧</td>
+                            </tr>
+                            <tr>
+                                <td>德莱文</td>
+                                <td>亚索</td>
+                                <td>剑姬</td>
+                            </tr>
+                            <tr>
+                                <td>瑞雯</td>
+                                <td>武器</td>
+                                <td>牛头</td>
+                            </tr>
+                            <tr>
+                                <td>锤石</td>
+                                <td>劫</td>
+                                <td>泰隆</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li><a href="#">高端局</a></li>
+                    <li><a href="#">女神</a></li>
+                    <li><a href="#">幽默</a></li>
+                    <li><a href="#">贴吧</a></li>
+                </ul>
+            </div>
+
+            <ul id="video-list">
+                <li>
+                    <img id="headimg1" src="../image/img1.png" alt="视频图" />
+                    <h4><a href="#">最帅中单鑫哥</a></h4>
+                    <p>聆听-鑫哥卡萨丁</p>
+                    <div id="audnum">1.6万</div>
+                </li>
+                <li>
+                    <img src="../image/img2.png" alt="视频图" />
+                    <h4><a href="#">Uzi的直播间</a></h4>
+
+                    <p>Uzi</p>
+                    <div id="audnum">61.3万</div>
+                </li>
+                <li>
+                    <img src="../image/img3.png" alt="视频图" />
+                    <h4><a href="#">史上最强蛮王 能抗住我三刀的只有真眼</a></h4>
+
+                    <p>第一蛮王八神</p>
+                    <div id="audnum">9.3万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img4.png" alt="视频图" />
+                    <h4><a href="#">杨永战教授 瑞雯专栏</a></h4>
+
+                    <p>小战</p>
+                    <div id="audnum">8.3万</div>
+
+                </li>
+
+                <li>
+                    <img id="headimg1" src="../image/img1.png" alt="视频图" />
+                    <h4><a href="#">最帅中单鑫哥</a></h4>
+
+                    <p>聆听-鑫哥卡萨丁</p>
+                    <div id="audnum">1.6万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img2.png" alt="视频图" />
+                    <h4><a href="#">Uzi的直播间</a></h4>
+
+                    <p>Uzi</p>
+                    <div id="audnum">61.3万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img3.png" alt="视频图" />
+                    <h4><a href="#">史上最强蛮王 能抗住我三刀的只有真眼</a></h4>
+
+                    <p>第一蛮王八神</p>
+                    <div id="audnum">9.3万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img4.png" alt="视频图" />
+                    <h4><a href="#">杨永战教授 瑞雯专栏</a></h4>
+
+                    <p>小战</p>
+                    <div id="audnum">8.3万</div>
+
+                </li>
+
+                <li>
+                    <img id="headimg1" src="../image/img1.png" alt="视频图" />
+                    <h4><a href="#">最帅中单鑫哥</a></h4>
+
+                    <p>聆听-鑫哥卡萨丁</p>
+                    <div id="audnum">1.6万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img2.png" alt="视频图" />
+                    <h4><a href="#">Uzi的直播间</a></h4>
+
+                    <p>Uzi</p>
+                    <div id="audnum">61.3万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img3.png" alt="视频图" />
+                    <h4><a href="#">史上最强蛮王 能抗住我三刀的只有真眼</a></h4>
+
+                    <p>第一蛮王八神</p>
+                    <div id="audnum">9.3万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img4.png" alt="视频图" />
+                    <h4><a href="#">杨永战教授 瑞雯专栏</a></h4>
+
+                    <p>小战</p>
+                    <div id="audnum">8.3万</div>
+
+                </li>
+
+                <li>
+                    <img id="headimg1" src="../image/img1.png" alt="视频图" />
+                    <h4><a href="#">最帅中单鑫哥</a></h4>
+
+                    <p>聆听-鑫哥卡萨丁</p>
+                    <div id="audnum">1.6万</div>
+                </li>
+                <li>
+                    <img src="../image/img2.png" alt="视频图" />
+                    <h4><a href="#">Uzi的直播间</a></h4>
+
+                    <p>Uzi</p>
+                    <div id="audnum">61.3万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img3.png" alt="视频图" />
+                    <h4><a href="#">史上最强蛮王 能抗住我三刀的只有真眼</a></h4>
+
+                    <p>第一蛮王八神</p>
+                    <div id="audnum">9.3万</div>
+
+                </li>
+                <li>
+                    <img src="../image/img4.png" alt="视频图" />
+                    <h4><a href="#">杨永战教授 瑞雯专栏</a></h4>
+
+                    <p>小战</p>
+                    <div id="audnum">8.3万</div>
+                </li>
+            </ul>
+
+        </article>
+    </div>
+
+</body>
+</html>
